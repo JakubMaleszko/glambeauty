@@ -1,0 +1,21 @@
+:host{
+    width: 80%;
+}
+.expanding{
+    width: 100%;
+    &-heading{
+        padding: 2rem;
+        background-color: #404040;
+        font-size: 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    
+    }
+    &-content{
+        width: 100%;
+        padding: 2rem;
+        background-color: #222;
+    }
+}

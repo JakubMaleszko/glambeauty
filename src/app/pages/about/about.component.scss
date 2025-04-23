@@ -1,0 +1,15 @@
+.about{
+    padding: 0 2rem;
+    &-text{
+        padding: 2rem;
+        text-align: justify;
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 767px) {
+.about{
+    &-text{
+        padding: 0.5rem;
+    }
+}
+}

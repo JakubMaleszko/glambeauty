@@ -1,0 +1,14 @@
+<nav class="navbar">
+    <img class="navbar-logo" src="/img/reduced.png" alt="glambeauty logo">
+    <img (click)="mobile()" class="navbar-hamburger" src="svg/lines.svg">
+    <div class="navbar-menu">
+        @for (item of headerItems; track $index) {
+            <a 
+              class="navbar-menu-item"
+              [routerLink]="item.link"
+              [routerLinkActive]="['navbar-menu-item-active']">
+             {{item.title}}
+            </a>
+        }
+    </div>
+</nav>

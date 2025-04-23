@@ -1,0 +1,9 @@
+<div class="hero">
+    <img class="hero-img" src="/img/reduced.png" alt="glambeauty logo">
+    <app-button>Zarezerwuj teraz</app-button>
+</div>
+<div class="cards">
+    @for (card of cards; track $index) {
+        <app-card [title]="card.title" [imgPath]="card.imgPath" [imgAlt]="card.imgAlt" [content]="card.content"></app-card>
+    }
+</div>

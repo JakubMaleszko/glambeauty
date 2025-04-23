@@ -1,0 +1,11 @@
+<div class="element">
+    <div (click)="toggle()" class="element-heading">
+        <div class="element-heading-text"> {{header()}} </div>
+        <div class="element-heading-arrow"> <img [@arrow]="isExpanded() ? 'on' : 'off'" src="/svg/downarrow.svg"> </div>
+    </div>
+    @if(isExpanded()){
+    <div class="element-content" @expand>
+        <ng-content></ng-content>
+    </div>
+}
+</div>

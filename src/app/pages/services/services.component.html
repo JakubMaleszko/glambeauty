@@ -1,0 +1,12 @@
+<div class="services">
+    <div class="bordered-text">Usługi</div>
+    <div class="services-expanding">
+        @for (category of services ; track $index) {
+            <app-expanding header="{{category.name}}">
+            @for (item of category.items; track $index) {
+                <app-expanding-element header="{{item.name}}">{{item.description}}</app-expanding-element>
+            }
+            </app-expanding>
+        }
+    </div>
+</div>

@@ -1,0 +1,29 @@
+.hero{
+    background-image: url("/img/gg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 124px);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+
+    &-img{
+        width: 50%;
+    }
+}
+.cards {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+}

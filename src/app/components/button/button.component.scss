@@ -1,0 +1,21 @@
+.button {
+    color: black;
+    display: flex;
+    flex-grow: 0;
+    background-color: #D0A549;
+    width: fit-content;
+    padding: 1.2rem 2rem;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease;
+
+}
+
+.button:hover {
+    background-color: #d1a23b;
+}
+
+.button:active {
+    transform: scale(0.95);
+}

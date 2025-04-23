@@ -1,0 +1,17 @@
+<div class="pricelist">
+    <div class="bordered-text">Cennik</div>
+    @for (category of pricelist ; track $index) {
+    <div class="bordered-text pricelist-category">{{category.name}}</div>
+    @for (item of category.items; track $index) {
+    <div class="hr-pricelist pricelist-item">
+        <div class="pricelist-item-name">
+            {{item.name}}
+        </div>
+        <div class="pricelist-item-price">
+            {{item.price}}
+        </div>
+    </div>
+    }
+}
+
+</div>

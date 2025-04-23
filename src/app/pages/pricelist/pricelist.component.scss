@@ -1,0 +1,28 @@
+.pricelist {
+    padding: 0 2rem;
+    padding-bottom: 5rem;
+
+    &-item {
+        max-width: 100%;
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: 2.5fr 1fr;
+    }
+
+    &-category {
+        margin-top: 2rem;
+    }
+}
+
+.hr-pricelist {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--glam-accent-color);
+}
+
+@media only screen and (max-width: 767px) {
+.pricelist{
+    &-item{
+        grid-template-columns: 80% 20%;
+    }
+}
+}

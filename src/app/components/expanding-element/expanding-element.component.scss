@@ -1,0 +1,19 @@
+.element{
+    width: 100%;
+    white-space: pre-line;
+    &-heading{
+        padding: 1rem;
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-arrow{
+            img{
+                width: 20px;
+            }
+        }
+    }
+    &-content{
+        margin: 1rem 0;
+    }
+}
