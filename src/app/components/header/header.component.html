@@ -12,3 +12,16 @@
         }
     </div>
 </nav>
+@if(isOpen()){
+<nav class="mobile" @open>
+    @for (item of headerItems; track $index) {
+        <a 
+          class="navbar-menu-item"
+          [routerLink]="item.link"
+          [routerLinkActive]="['navbar-menu-item-active']"
+          (click)="mobile()">
+         {{item.title}}
+        </a>
+    }
+</nav>
+}

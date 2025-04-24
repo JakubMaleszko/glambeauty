@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Poppins';
+    src: url("/Poppins/Poppins-Regular.ttf");
+}
+:root {
+    // COLORS
+    --glam-background-color: #292929;
+    --glam-background-color-second: #2E2E2E;
+    --glam-font-color: #FFF;
+    --glam-accent-color: #CDAB62;
+}
+body{
+    margin: 0;
+    font-family: Poppins;
+    background-color: var(--glam-background-color);
+    color: var(--glam-font-color);
+}
+a{
+    color: var(--glam-font-color);
+}
+.bordered-text{ 
+    width: fit-content;
+    height: fit-content;
+    font-size: 32px;
+    border-bottom: 4px solid var(--glam-accent-color);
+    padding-bottom: 2px;
+
+}
+.hr-bottom{
+    padding-bottom: 1rem;
+    border-bottom: 3px solid var(--glam-accent-color);
+}

@@ -70,6 +70,18 @@
         display: none;
     }
 }
+.mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 124px;
+    left: 0;
+    width: 100%;
+    background-color: #292929;
+    z-index: 2;
+}
 
 @media only screen and (max-width: 991px) {
     .navbar {
@@ -77,9 +89,6 @@
         flex-wrap: wrap;
         &-menu {
             display: none;
-            flex-direction: column;
-            align-items: center;
-            width: 100%;
         }
 
         &-hamburger {

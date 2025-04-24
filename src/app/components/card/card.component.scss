@@ -1,4 +1,6 @@
 .card {
+    display: flex;
+    flex-direction: column;
     max-width: 340px;
     background-color: var(--glam-background-color-second);
     padding: 2rem;
@@ -26,8 +28,8 @@
     }
     &-footer{
         display: flex;
-        justify-content: end;
-        align-items: end;
+        margin-top: auto;
+        justify-content: flex-end;
     }
 
 }

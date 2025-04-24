@@ -18,7 +18,7 @@ export const HEADER_ITEMS: HeaderItem[] = [
     },
     {
         title: 'Kontakt',
-        link: '/cennik'
+        link: '/kontakt'
     },
     {
         title: 'Cennik',
