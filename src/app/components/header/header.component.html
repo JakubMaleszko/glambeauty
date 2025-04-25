@@ -2,26 +2,21 @@
     <img class="navbar-logo" src="/img/reduced.png" alt="glambeauty logo">
     <img (click)="mobile()" class="navbar-hamburger" src="svg/lines.svg">
     <div class="navbar-menu">
-        @for (item of headerItems; track $index) {
-            <a 
-              class="navbar-menu-item"
-              [routerLink]="item.link"
-              [routerLinkActive]="['navbar-menu-item-active']">
-             {{item.title}}
-            </a>
-        }
-    </div>
+        <a class="navbar-menu-item" [routerLink]="'/strona-glowna'" routerLinkActive="navbar-menu-item-active">Strona główna</a>
+        <a class="navbar-menu-item" [routerLink]="['/o-nas']" routerLinkActive="navbar-menu-item-active">O nas</a>
+        <a class="navbar-menu-item" routerLink="/uslugi" routerLinkActive="navbar-menu-item-active">Usługi</a>
+        <a class="navbar-menu-item" (click)="scroll()">Kontakt</a>
+        <a class="navbar-menu-item" routerLink="/cennik" routerLinkActive="navbar-menu-item-active">Cennik</a>
+        <a class="navbar-menu-item">Szkolenia</a>
+      </div>
 </nav>
 @if(isOpen()){
 <nav class="mobile" @open>
-    @for (item of headerItems; track $index) {
-        <a 
-          class="navbar-menu-item"
-          [routerLink]="item.link"
-          [routerLinkActive]="['navbar-menu-item-active']"
-          (click)="mobile()">
-         {{item.title}}
-        </a>
-    }
+    <a class="navbar-menu-item" [routerLink]="'/strona-glowna'" routerLinkActive="navbar-menu-item-active" (click)="mobile()">Strona główna</a>
+    <a class="navbar-menu-item" [routerLink]="['/o-nas']" routerLinkActive="navbar-menu-item-active" (click)="mobile()">O nas</a>
+    <a class="navbar-menu-item" routerLink="/uslugi" routerLinkActive="navbar-menu-item-active" (click)="mobile()">Usługi</a>
+    <a class="navbar-menu-item" (click)="scroll() " (click)="mobile()">Kontakt</a>
+    <a class="navbar-menu-item" routerLink="/cennik" routerLinkActive="navbar-menu-item-active" (click)="mobile()">Cennik</a>
+    <a class="navbar-menu-item" (click)="mobile()">Szkolenia</a>
 </nav>
 }

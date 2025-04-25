@@ -2,5 +2,8 @@
     padding: 0 2rem;
     &-expanding {
         padding: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
     }
 }

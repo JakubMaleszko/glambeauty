@@ -11,6 +11,7 @@ export const PRICELIST: PriceLIstCategory[] = [
     {
         name: 'Oprawa oka',
         items: [
+            {name: '', price: ''},
             {name: 'Henna brwi z regulacją', price: '60 zł'},
             {name: "Henna pudrowa", price: '90 zł'},
             {name: "Laminacja brwi", price: "130 zł"},
@@ -39,6 +40,7 @@ export const PRICELIST: PriceLIstCategory[] = [
     {
         name: "Zabiegi kosmetyczne",
         items: [
+            {name: '', price: ''},
             { name: "Zabieg rewitalizujący z maską", price: "60min - 120 zł" },
             { name: "Oczyszczanie wodorowe BASIC", price: "60min - 200 zł" },
             { name: "Oczyszczanie wodorowe PREMIUM", price: "90min - 280 zł" },

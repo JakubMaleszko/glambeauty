@@ -1,11 +1,12 @@
-.container{
+.container {
     width: 100%;
 }
 
-.expanding{
+.expanding {
     width: 80%;
     margin: auto;
-    &-heading{
+
+    &-heading {
         width: calc(100% - 4rem);
         padding: 2rem;
         background-color: #404040;
@@ -14,13 +15,24 @@
         justify-content: space-between;
         align-items: center;
 
-    &-arrow{
-        width: 24px;
+        &-arrow {
+            width: 24px;
+        }
     }
-    }
-    &-content{
+
+    &-content {
         width: calc(100% - 4rem);
         padding: 2rem;
         background-color: #222;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .expanding {
+        width: 100%;
+
+        &-heading {
+            font-size: 24px;
+        }
     }
 }

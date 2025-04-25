@@ -2,6 +2,7 @@ import { Component, signal } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { HEADER_ITEMS, HeaderItem } from './HEADER_ITEMS';
 import { animate, style, transition, trigger } from '@angular/animations';
+import { ViewportScroller } from '@angular/common';
 
 @Component({
   selector: 'app-header',
@@ -27,5 +28,9 @@ export class HeaderComponent {
   isOpen = signal<boolean>(false);
   mobile(): void {
     this.isOpen.set(!this.isOpen());
+  }
+  constructor(private viewportScroller: ViewportScroller) {}
+  scroll(){
+    this.viewportScroller.scrollToAnchor('kontakt');
   }
 }

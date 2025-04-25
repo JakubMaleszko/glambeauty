@@ -9,6 +9,7 @@
     position: fixed;
     top: 0;
     z-index: 2;
+    scroll-behavior: smooth;
 
     &-logo {
         width: 250px;
@@ -93,6 +94,13 @@
 
         &-hamburger {
             display: block;
+        }
+    }
+}
+@media only screen and (max-width: 379px) {
+    .navbar {
+        &-logo {
+            width: 180px;
         }
     }
 }
