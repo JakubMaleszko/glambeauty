@@ -1,10 +1,6 @@
 .services {
     padding: 0 2rem;
     &-expanding {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
-        padding: 2rem;
+        padding: 2rem 0;
     }
 }

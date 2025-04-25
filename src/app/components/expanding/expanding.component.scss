@@ -1,21 +1,25 @@
-// :host{
-//     width: 80%;
-// }
+.container{
+    width: 100%;
+}
 
 .expanding{
-    width: 100%;
+    width: 80%;
+    margin: auto;
     &-heading{
+        width: calc(100% - 4rem);
         padding: 2rem;
         background-color: #404040;
         font-size: 32px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 100%;
-    
+
+    &-arrow{
+        width: 24px;
+    }
     }
     &-content{
-        width: 100%;
+        width: calc(100% - 4rem);
         padding: 2rem;
         background-color: #222;
     }
