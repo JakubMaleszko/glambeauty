@@ -13,6 +13,8 @@ export class CardComponent {
   title = input.required<string>();
   imgPath = input.required<string>();
   imgAlt = input.required<string>();
+  link = input<string | undefined>();
+  router = input<string | any[] | undefined>();
   content = input.required<string>();
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
   ngOnInit() {

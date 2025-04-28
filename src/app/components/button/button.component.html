@@ -1,3 +1,14 @@
-<a class="button">
+<ng-template #projected>
     <ng-content></ng-content>
+</ng-template>
+
+
+@if (typeof(link()) === 'string' && link() !== '') {
+<a [href]="link()" class="button">
+    <ng-container *ngTemplateOutlet="projected" />
 </a>
+} @else if (typeof(router()) === 'string' && router() !== '') {
+<a [routerLink]="router()" class="button">
+    <ng-container *ngTemplateOutlet="projected" />
+</a>
+}

@@ -1,9 +1,9 @@
 <div class="hero">
     <img class="hero-img" src="/img/reduced.png" alt="glambeauty logo">
-    <app-button>Zarezerwuj teraz</app-button>
+    <app-button link="https://booksy.com/pl-pl/dl/show-business/155733?utm_medium=c2c_referral">Zarezerwuj teraz</app-button>
 </div>
 <div class="cards">
     @for (card of cards; track $index) {
-        <app-card [title]="card.title" [imgPath]="card.imgPath" [imgAlt]="card.imgAlt" [content]="card.content"></app-card>
+        <app-card [title]="card.title" [imgPath]="card.imgPath" [imgAlt]="card.imgAlt" [content]="card.content" [router]="card.router"></app-card>
     }
 </div>

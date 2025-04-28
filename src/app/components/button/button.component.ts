@@ -1,11 +1,14 @@
 import { Component, input } from '@angular/core';
+import { RouterLink } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-button',
-  imports: [],
+  imports: [RouterLink, CommonModule],
   templateUrl: './button.component.html',
   styleUrl: './button.component.scss'
 })
 export class ButtonComponent {
-  // content = input.required<string>();
+  link = input<string | undefined>();
+  router = input<string | any[] | undefined>();
 }
