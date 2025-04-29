@@ -4,6 +4,6 @@
 </div>
 <div class="cards">
     @for (card of cards; track $index) {
-        <app-card [title]="card.title" [imgPath]="card.imgPath" [imgAlt]="card.imgAlt" [content]="card.content" [router]="card.router"></app-card>
+        <app-card [title]="card.title" [imgPath]="card.imgPath" [imgAlt]="card.imgAlt" [content]="card.content" [router]="card.router" [link]="card.link"></app-card>
     }
 </div>

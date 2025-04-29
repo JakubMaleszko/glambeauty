@@ -13,10 +13,3 @@ export const routes: Routes = [
     //{ path: 'kontakt' , }
     { path: 'cennik', component: PricelistComponent },
 ];
-@NgModule({
-    imports: [RouterModule.forRoot(routes, {
-        scrollPositionRestoration: 'enabled'
-    })],
-    exports: [RouterModule]
-})
-export class AppRoutingModule { }
