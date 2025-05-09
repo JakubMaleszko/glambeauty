@@ -7,11 +7,9 @@ export interface servicesItem {
     description: string;
 }
 export const SERVICES: servicesCategory[] = [
-    {
-        name: 'Kosmetologia',
+    {name: 'Kosmetologia',
         items: [
-            {
-                name: 'Zabieg rewitalizujący z maską', description: `Terapia regenerująca dla każdego rodzaju skóry z wykorzystaniem
+            {name: 'Zabieg rewitalizujący z maską', description: `Terapia regenerująca dla każdego rodzaju skóry z wykorzystaniem
 masek kremowych lub algowych, bogatych w składniki odżywcze.
 Zabieg, dzięki dostosowaniu substancji aktywnych do indywidualnych
 potrzeb skóry, przywraca jej naturalny, zdrowy wygląd, intensywnie
@@ -210,13 +208,176 @@ Zabieg bankietowy to idealne rozwiązanie dla osób, które chcą w krótkim cza
 osiągnąć efekt liftingu i zdrowego blasku skóry. Efekt widoczny jest od razu po
 zabiegu, dlatego doskonale sprawdzi się przed ważnymi wydarzeniami, takimi jak
 śluby, bankiety czy inne uroczystości.` },
+            { name: "Infuzja tlenowa", description: `Zabieg infuzji tlenowej polega na wtłaczaniu za pomocą skoncentrowanego
+czystego tlenu substancji aktywnych do najgłębszych warstw naskórka.
+W zależności od zastosowanych ampułek infuzja tlenowa może mieć
+działanie łagodzące, przeciwstarzeniowe, nawilżające, poprawiające koloryt
+i jędrność skóry. Tlen działa także odżywczo i tonizująco, pobudza oddychanie
+komórek, nadając skórze bardziej elastyczny, zwarty i świetlisty wygląd.
+
+Widoczne rezultaty:
+✔️ Dogłębne nawilżenie i odżywienie skóry
+✔️ Rozświetlenie i wyrównanie kolorytu cery
+✔️ Wygładzenie i napięcie skóry
+✔️ Redukcja oznak zmęczenia
+✔️ Działanie antyoksydacyjne i regeneracyjne 
+
+Przebieg zabiegu:
+1. Demakijaż i dwuetapowe oczyszczenie skóry – usunięcie zanieczyszczeń i przygotowanie cery
+2. Tonizacja – przywrócenie naturalnego pH skóry
+3. Eksfoliacja – peeling enzymatyczny lub kawitacyjny dla lepszego wchłaniania składników
+4. Aplikacja ampułki lub koncentratu – dopasowanego do potrzeb skóry
+5. Infuzja tlenowa – wtłaczanie składników odżywczych za pomocą tlenu pod wysokim ciśnieniem
+6. Maska algowa lub żelowa – ukojenie i regeneracja skóry
+7. Aplikacja kremu pielęgnacyjnego oraz kremu z filtrem SPF
+
+Przeciwwskazania:
+❌ Aktywne stany zapalne skóry (trądzik ropowiczy, opryszczka)
+❌ Choroby nowotworowe
+❌ Alergie na składniki stosowane podczas zabiegu
+❌ Świeże blizny i uszkodzenia skóry
+
+Zabieg jest bezinwazyjny, odpowiedni dla każdego rodzaju cery i wieku. Może być
+stosowany również u kobiet w ciąży.
+
+📅 Zalecana seria: 5-6 zabiegów co 7 dni, później przypominająco 1 raz w miesiącu.`},
+            {name: "Fale radiowe RF (radiofrekwencja)", description: `Fale radiowe RF (radiofrekwencja) to skuteczna i bezinwazyjna metoda
+odmładzania skóry, wykorzystująca energię fal radiowych do pobudzenia produkcji
+kolagenu i elastyny. Zabieg działa ujędrniająco, poprawia napięcie skóry i redukuje
+drobne zmarszczki. Efekt liftingu widoczny jest już po pierwszym zabiegu, a
+regularne sesje przynoszą długotrwałe rezultaty.
+
+💎 Dla kogo?
+✔️ Skóra wiotka, wymagająca ujędrnienia
+✔️ Zmarszczki i utrata elastyczności skóry
+✔️ Opadający owal twarzy
+✔️ Cera pozbawiona blasku i napięcia
+
+✨ Widoczne rezultaty:
+✔️ Poprawa napięcia i jędrności skóry
+✔️ Redukcja drobnych zmarszczek
+✔️ Ujędrnienie i wymodelowanie owalu twarzy
+✔️ Pobudzenie produkcji kolagenu
+
+⏳ Przebieg zabiegu:
+1. Demakijaż i dwuetapowe oczyszczenie skóry
+2. Tonizacja – przywrócenie naturalnego pH skóry
+3. Eksfoliacja – peeling enzymatyczny lub kawitacyjny (dla lepszego wchłaniania
+składników)
+4. Zabieg falą radiową RF – lifting i stymulacja skóry
+5. Aplikacja odżywczej ampułki lub serum
+6. Kojąca maska – regeneracja i nawilżenie
+7. Maska LED dla wzmocnienia efektu
+8. Zakończenie zabiegu kremem oraz ochronnym filtrem SPF
+
+❗ Przeciwwskazania do zabiegu:
+❌ Ciąża i karmienie piersią
+❌ Choroby nowotworowe
+❌ Metalowe implanty w okolicy zabiegu
+❌ Rozrusznik serca
+❌ Aktywne stany zapalne skóry, opryszczka
+❌ Świeże wypełniacze i botoks (zalecana przerwa min. 2 tygodnie)
+📅 Zalecana seria: 4-6 zabiegów co 7-14 dni dla długotrwałego efektu liftingu`},
+            {name: "Peeling kawitacyjny+ampułka+sonoforeza", description: `Peeling kawitacyjny to delikatna, a zarazem skuteczna metoda oczyszczania skóry
+za pomocą ultradźwięków. Zabieg usuwa martwe komórki naskórka, nadmiar
+sebum i zanieczyszczenia, pozostawiając skórę gładką, świeżą i promienną. Jest to
+idealna alternatywa dla osób, które chcą uniknąć inwazyjnych metod oczyszczania.
+
+Sonoforeza to metoda wprowadzania substancji aktywnych w głąb skóry za
+pomocą ultradźwięków. Pod wpływem fal dźwiękowych o wysokiej częstotliwości
+(1-3 MHz) dochodzi do mikromasażu tkanek, co zwiększa przepuszczalność błon
+komórkowych i pozwala na lepsze wchłanianie składników odżywczych zawartych
+w ampułkach czy serum.
+
+Dzięki sonoforezie substancje aktywne docierają do głębszych warstw skóry, co
+sprawia, że zabieg jest znacznie skuteczniejszy niż zwykła aplikacja kosmetyków
+na powierzchnię skóry.
+
+Dla kogo jest sonoforeza?
+🔹 Osoby z cerą suchą i odwodnioną – intensywne nawilżenie
+🔹 Skóra dojrzała – poprawa jędrności i redukcja zmarszczek
+🔹 Skóra naczynkowa – łagodzenie zaczerwienień
+🔹 Cera tłusta i trądzikowa – działanie seboregulujące i przeciwzapalne
+
+Sonoforeza to bezpieczny, przyjemny i całkowicie bezbolesny zabieg, który można
+łączyć z innymi metodami pielęgnacyjnymi, takimi jak peeling kawitacyjny czy
+oczyszczanie wodorowe. Efekty widoczne są od razu – skóra jest promienna,
+miękka i dogłębnie nawilżona.
+
+Widoczne efekty:
+✔️ Głębokie oczyszczenie i detoksykacja skóry
+✔️ Redukcja nadmiaru sebum i zmniejszenie widoczności porów
+✔️ Intensywne nawilżenie i regeneracja skóry
+✔️ Wygładzenie i ujednolicenie kolorytu skóry
+✔️ Poprawa jędrności i elastyczności skóry
+
+Przebieg zabiegu:
+1. Demakijaż i dwuetapowe oczyszczenie skóry
+2. Tonizacja – przywrócenie naturalnego pH skóry
+3. Peeling kawitacyjny – usunięcie martwego naskórka i dogłębne oczyszczenie
+skóry
+4. Aplikacja ampułki lub koncentratu – dobranego do rodzaju skóry (nawilżający,
+5. liftingujący, przeciwtrądzikowy, rozjaśniający)
+6.Sonoforeza – wprowadzanie substancji aktywnych w głąb skóry za pomocą
+ultradźwięków
+7. Maska algowa lub żelowa (w wersji rozszerzonej) – regeneracja i ukojenie
+skóry
+8. Aplikacja kremu nawilżającego oraz kremu z filtrem SPF
+
+Przeciwwskazania:
+❌ Ciąża i karmienie piersią
+❌ Choroby nowotworowe i chemioterapia
+❌ Choroby skóry (łuszczyca, egzema w stanie zapalnym)
+❌ Metalowe implanty w okolicy zabiegu
+❌ Aktywne stany zapalne skóry (opryszczka, grzybica)
+❌ Trądzik ropowiczy, ciężkie postacie trądziku różowatego
+❌ Świeże blizny i uszkodzenia skóry
+❌ Rozrusznik serca
+
+Sonoforeza to doskonałe uzupełnienie peelingu kawitacyjnego, ponieważ pozwala
+na jeszcze lepsze wykorzystanie składników aktywnych i wzmacnia efekt zabiegu.
+Skóra po zabiegu jest nie tylko oczyszczona, ale również intensywnie nawilżona,
+odżywiona i pełna blasku`},
+            {name: "Peeling kawitacyjny", description: `Peeling kawitacyjny to delikatna, a zarazem skuteczna metoda oczyszczania skóry
+za pomocą ultradźwięków. Zabieg usuwa martwe komórki naskórka, nadmiar
+sebum i zanieczyszczenia, pozostawiając skórę gładką, świeżą i promienną. Jest to
+idealna alternatywa dla osób, które chcą uniknąć inwazyjnych metod oczyszczania.
+
+Widoczne rezultaty:
+✔️ Głębokie oczyszczenie i odświeżenie skóry
+✔️ Zmniejszenie widoczności porów i redukcja nadmiaru sebum
+✔️ Poprawa wchłaniania składników odżywczych
+✔️ Wygładzenie i ujednolicenie kolorytu skóry
+✔️ Nawilżenie i regeneracja skóry
+
+Przebieg zabiegu:
+1 Demakijaż i dwuetapowe oczyszczenie skóry
+2. Tonizacja – przywrócenie naturalnego pH skóry
+3. Peeling kawitacyjny – usunięcie martwego naskórka i dogłębne oczyszczenie
+skóry
+4. Aplikacja maski – dobranej do rodzaju skóry (nawilżająca, łagodząca,
+regenerująca)
+5. Aplikacja kremu nawilżającego oraz kremu z filtrem SPF
+
+Przeciwwskazania:
+❌ Ciąża i karmienie piersią
+❌ Choroby nowotworowe i chemioterapia
+❌ Choroby skóry (łuszczyca, egzema w stanie zapalnym)
+❌ Metalowe implanty w okolicy zabiegu
+❌ Aktywne stany zapalne skóry (opryszczka, grzybica)
+❌ Trądzik ropowiczy, ciężkie postacie trądziku różowatego
+❌ Świeże blizny i uszkodzenia skóry
+❌ Rozrusznik serca
+
+Peeling kawitacyjny to bezbolesny, bezpieczny i efektywny sposób na oczyszczenie
+skóry i poprawę jej kondycji. Zabieg jest odpowiedni dla wszystkich typów cery,
+także wrażliwej i naczynkowej.`}
+
         ]
     },
-    {
-        name: "Oprawa oka",
+    {name: "Oprawa oka",
         items: [
-            {
-                name: "Farbka na brwi", description: `Farbka na brwi to szybki i skuteczny sposób na uwydatnienie
+            {name: "Farbka na brwi", description: `Farbka na brwi to szybki i skuteczny sposób na uwydatnienie
 naturalnego kształtu oraz koloru brwi. Dzięki precyzyjnemu
 dopasowaniu odcienia do Twojej urody oraz odpowiedniemu
 modelowaniu łuku, uzyskujemy efekt zadbanych, wyrazistych brwi bez
@@ -232,8 +393,7 @@ twarzy.
 ✅ Efekt na włoskach: do 3 tygodni
 ✅ Regulacja i modelowanie kształtu brwi`
             },
-            {
-                name: "Henna pudrowa", description: `Henna pudrowa to jedna z najpopularniejszych metod koloryzacji brwi,
+            {name: "Henna pudrowa", description: `Henna pudrowa to jedna z najpopularniejszych metod koloryzacji brwi,
 która nie tylko nadaje im wyrazisty kolor, ale również wypełnia ubytki,
 dając efekt delikatnego makijażu. Dzięki zabiegowi geometrii brwi
 precyzyjnie wyznaczamy idealny kształt dopasowany do Twoich rysów
@@ -249,8 +409,7 @@ efekt idealnie podkreślonych brwi.
 ✅ Efekt na włoskach: do 5 tygodni
 ✅ Geometria i regulacja w cenie zabiegu`
             },
-            {
-                name: "Laminacja brwi", description: `Laminacja brwi to innowacyjny zabieg, który ujarzmia niesforne włoski
+            {name: "Laminacja brwi", description: `Laminacja brwi to innowacyjny zabieg, który ujarzmia niesforne włoski
 i pozwala nadać brwiom idealny kształt oraz optycznie zwiększyć ich
 objętość. Dzięki zastosowaniu specjalnych preparatów, włoski stają się
 miękkie, elastyczne i podatne na układanie, co pozwala utrzymać efekt
@@ -270,11 +429,9 @@ wyrazistych brwiach bez codziennego modelowania.
             }
         ]
     },
-    {
-        name: "Przedłużanie rzęs",
+    {name: "Przedłużanie rzęs",
         items: [
-            {
-                name: "Laminacja rzęs", description: `Laminacja rzęs to zabieg, który naturalnie unosi, podkręca i pogrubia
+            {name: "Laminacja rzęs", description: `Laminacja rzęs to zabieg, który naturalnie unosi, podkręca i pogrubia
 rzęsy, nadając spojrzeniu głębi i wyrazistości – bez sztucznych doklejek.
 W trakcie zabiegu stosujemy odżywcze preparaty bogate w keratynę i
 witaminy, które wzmacniają strukturę włosków, poprawiając ich
@@ -291,8 +448,7 @@ konieczności codziennego tuszowania rzęs.
 ✅ Efekt utrzymuje się do 6–8 tygodni
 ✅ Idealne rozwiązanie dla każdej pory roku`
             },
-            {
-                name: "Stylizacja rzęs", description: `W GlamBeauty Studio Urody oferujemy profesjonalną stylizację rzęs z
+            {name: "Stylizacja rzęs", description: `W GlamBeauty Studio Urody oferujemy profesjonalną stylizację rzęs z
 wykorzystaniem różnych metod – od klasycznej 1:1, przez objętościowe
 2D–5D, aż po spektakularne mega volume i insta trendy. Każdą
 stylizację dobieramy indywidualnie, uwzględniając kształt oka, typ
