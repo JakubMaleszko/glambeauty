@@ -426,12 +426,8 @@ wyrazistych brwiach bez codziennego modelowania.
 ✅ Koloryzacja i regulacja w cenie
 ✅ Efekt laminacji: do 6 tygodni
 ✅ Efekt farbki: do 3 tygodni`
-            }
-        ]
-    },
-    {name: "Przedłużanie rzęs",
-        items: [
-            {name: "Laminacja rzęs", description: `Laminacja rzęs to zabieg, który naturalnie unosi, podkręca i pogrubia
+            },
+                        {name: "Laminacja rzęs", description: `Laminacja rzęs to zabieg, który naturalnie unosi, podkręca i pogrubia
 rzęsy, nadając spojrzeniu głębi i wyrazistości – bez sztucznych doklejek.
 W trakcie zabiegu stosujemy odżywcze preparaty bogate w keratynę i
 witaminy, które wzmacniają strukturę włosków, poprawiając ich
@@ -448,6 +444,10 @@ konieczności codziennego tuszowania rzęs.
 ✅ Efekt utrzymuje się do 6–8 tygodni
 ✅ Idealne rozwiązanie dla każdej pory roku`
             },
+        ]
+    },
+    {name: "Przedłużanie rzęs",
+        items: [
             {name: "Stylizacja rzęs", description: `W GlamBeauty Studio Urody oferujemy profesjonalną stylizację rzęs z
 wykorzystaniem różnych metod – od klasycznej 1:1, przez objętościowe
 2D–5D, aż po spektakularne mega volume i insta trendy. Każdą

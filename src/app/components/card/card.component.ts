@@ -16,11 +16,13 @@ export class CardComponent {
   link = input<string | undefined>();
   router = input<string | any[] | undefined>();
   content = input.required<string>();
+
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
+
   ngOnInit() {
     if (isPlatformBrowser(this.platformId)) {
       import('aos').then(AOS => {
-        AOS.init();
+        AOS.default.init();
       });
     }
   }

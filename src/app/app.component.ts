@@ -2,7 +2,9 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from "./components/footer/footer.component";
-import * as AOS from 'aos';
+import { isPlatformBrowser } from '@angular/common';
+import { Inject, PLATFORM_ID } from '@angular/core';
+import AOS from 'aos';
 
 @Component({
   selector: 'app-root',
@@ -11,5 +13,12 @@ import * as AOS from 'aos';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-
+    constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
+  ngOnInit() {
+    if (isPlatformBrowser(this.platformId)) {
+      import('aos').then(AOS => {
+        AOS.default.init();
+      });
+    }
+  }
 }
