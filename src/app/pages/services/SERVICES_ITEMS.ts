@@ -278,7 +278,7 @@ składników)
 ❌ Aktywne stany zapalne skóry, opryszczka
 ❌ Świeże wypełniacze i botoks (zalecana przerwa min. 2 tygodnie)
 📅 Zalecana seria: 4-6 zabiegów co 7-14 dni dla długotrwałego efektu liftingu`},
-            {name: "Peeling kawitacyjny+ampułka+sonoforeza", description: `Peeling kawitacyjny to delikatna, a zarazem skuteczna metoda oczyszczania skóry
+            {name: "Peeling kawitacyjny + ampułka + sonoforeza", description: `Peeling kawitacyjny to delikatna, a zarazem skuteczna metoda oczyszczania skóry
 za pomocą ultradźwięków. Zabieg usuwa martwe komórki naskórka, nadmiar
 sebum i zanieczyszczenia, pozostawiając skórę gładką, świeżą i promienną. Jest to
 idealna alternatywa dla osób, które chcą uniknąć inwazyjnych metod oczyszczania.
