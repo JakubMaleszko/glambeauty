@@ -4,7 +4,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from "./components/footer/footer.component";
 import { isPlatformBrowser } from '@angular/common';
 import { Inject, PLATFORM_ID } from '@angular/core';
-import AOS from 'aos';
 
 @Component({
   selector: 'app-root',
