@@ -24,14 +24,11 @@ export const PRICELIST: PriceLIstCategory[] = [
             { name: "", price: "UZUP / ZAŁ" },
             { name: "1 : 1", price: "130 / 170 zł" },
             { name: "2d", price: "130 / 170 zł" },
-            { name: "3d Ola", price: "140 / 180 zł" },
-            { name: "3–4d Julia", price: "140 / 170 zł" },
-            { name: "4d Ola", price: "150 / 190 zł" },
-            { name: "5d Julia", price: "150 / 180 zł" },
-            { name: "5d Ola", price: "160 / 200 zł" },
+            { name: "3d", price: "140 / 180 zł" },
+            { name: "4d", price: "150 / 190 zł" },
+            { name: "5d", price: "160 / 200 zł" },
             { name: "Wet Look", price: "160 / 200 zł" },
-            { name: "Wispy Lashes Julia", price: "160 / 200 zł" },
-            { name: "Wispy Lashes Ola", price: "170 / 220 zł" },
+            { name: "Wispy Lashes", price: "170 / 220 zł" },
             { name: "Mega Volume", price: "180 / 250 zł" },
             { name: "Kim/Glammy Mess/skręt m/L", price: "170 / 220 zł" }
         ]
