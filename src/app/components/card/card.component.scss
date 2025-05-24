@@ -10,6 +10,7 @@
     -webkit-box-shadow: 0px 8px 17px 0px rgba(17, 17, 17, 1);
     -moz-box-shadow: 0px 8px 17px 0px rgba(17, 17, 17, 1);
     box-shadow: 0px 8px 17px 0px rgba(17, 17, 17, 1);
+
     &-header {
         display: flex;
         justify-content: space-between;
@@ -26,30 +27,50 @@
         margin-top: 1rem;
         font-size: 18px;
     }
-    &-footer{
+
+    &-footer {
         display: flex;
         margin-top: auto;
         justify-content: flex-end;
+        padding-top: 0.5rem;
     }
 
 }
+
 @media only screen and (max-width: 1304px) {
-.card{
-    max-width: 300px;
+    .card {
+        max-width: 300px;
+    }
 }
-}
+
 @media only screen and (max-width: 991px) {
-    .card{
+    .card {
         max-width: 290px;
     }
 }
 
 @media only screen and (max-width: 767px) {
-    :host{
+    :host {
         width: 90%;
     }
-    .card{
+
+    .card {
         max-width: 100%;
     }
 }
 
+@media only screen and (max-width: 379px) {
+    .card {
+        &-header {
+            &>div{
+                font-size: 29px !important;
+            }
+            
+            &-image {
+                &-img {
+                    width: 90px;
+                }
+            }
+        }
+    }
+}

@@ -1,19 +1,44 @@
-.element{
+.element {
     width: 100%;
     white-space: pre-line;
-    &-heading{
+
+    &-heading {
         padding: 1rem;
         font-size: 24px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        &-arrow{
-            img{
+
+        &-arrow {
+            img {
                 width: 20px;
             }
         }
     }
-    &-content{
+
+    &-content {
         margin: 1rem 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .element {
+        &-heading {
+            font-size: 22px;
+        }
+    }
+}
+
+@media only screen and (max-width: 379px) {
+    .element {
+        &-heading {
+            font-size: 20px;
+
+            &-arrow {
+                img {
+                    width: 18px;
+                }
+            }
+        }
     }
 }
