@@ -9,6 +9,55 @@ export interface servicesItem {
 export const SERVICES: servicesCategory[] = [
     {name: 'Kosmetologia',
         items: [
+            {name: 'Mezoterapia mikroigłowa', description: `
+Mezoterapia mikroigłowa to skuteczna metoda odmładzania i regeneracji skóry, polegająca na kontrolowanym mikronakłuwaniu skóry za pomocą specjalnego urządzenia (dermapen). Mikronakłucia stymulują naturalne procesy naprawcze skóry oraz pobudzają produkcję kolagenu i elastyny. Jednocześnie podczas zabiegu wprowadzane są w głąb skóry substancje aktywne – takie jak kwas hialuronowy, witaminy czy peptydy – które intensywnie nawilżają, odżywiają i poprawiają kondycję skóry.
+
+Zabieg rekomendowany jest osobom z oznakami starzenia, zmęczoną i pozbawioną blasku cerą, rozszerzonymi porami, a także przy bliznach potrądzikowych czy nierównomiernym kolorycie skóry.
+
+💡 Efekty zabiegu:
+✔️ Redukcja zmarszczek i poprawa jędrności skóry
+✔️ Wyrównanie kolorytu i struktury skóry
+✔️ Zwężenie porów i wygładzenie naskórka
+✔️ Redukcja blizn potrądzikowych i przebarwień
+✔️ Głębokie nawilżenie i odżywienie skóry
+✔️ Naturalny efekt liftingu i odmłodzenia
+
+📋 Przebieg zabiegu:
+1. Demakijaż i dwuetapowe oczyszczenie skóry
+2. Tonizacja – przywrócenie naturalnego pH skóry
+3. Dezynfekcja skóry
+4. Mezoterapia mikroigłowa – wykonanie kontrolowanych mikronakłuć z jednoczesnym wtłaczaniem substancji aktywnych
+5. Aplikacja kremu nawilżającego oraz kremu z filtrem SPF
+
+🚫 Przeciwwskazania:
+❌ Ciąża i karmienie piersią
+❌ Choroby nowotworowe i autoimmunologiczne
+❌ Cukrzyca
+❌ Aktywna opryszczka i stany zapalne skóry
+❌ Skłonność do bliznowców
+❌ Stosowanie leków przeciwzakrzepowych
+❌ Świeżo opalona skóra
+
+📅 Zalecana seria: 3–6 zabiegów co 3–4 tygodnie. Możliwość wykonania jednorazowo jako zabiegu rewitalizującego (min. 7 dni przed ważnym wydarzeniem).
+
+Mezoterapia mikroigłowa to idealna propozycja dla osób, które chcą skutecznie poprawić wygląd skóry, odmłodzić ją i dodać jej świeżości w naturalny sposób – bez inwazyjnych metod.
+
+Zalecenia pozabiegowe:
+
+Aby uzyskać najlepsze efekty i uniknąć powikłań, przestrzegaj poniższych zaleceń:
+
+🔸 Unikaj makijażu przez minimum 24 godziny po zabiegu – skóra potrzebuje czasu na regenerację, a makijaż może ją dodatkowo podrażnić.
+🔸 Nie dotykaj skóry nieumytymi dłońmi – zminimalizujesz ryzyko infekcji.
+🔸 Unikaj sauny, basenu, gorących kąpieli i intensywnego wysiłku fizycznego przez 48 godzin – podwyższona temperatura i wilgoć mogą zwiększyć podrażnienie skóry.
+🔸 Nie opalaj się i unikaj ekspozycji na słońce przez minimum 7 dni – skóra po zabiegu jest wrażliwa na promieniowanie UV.
+🔸 Stosuj kremy z wysokim filtrem SPF 50 przez minimum 2 tygodnie – ochrona przeciwsłoneczna jest kluczowa, aby uniknąć przebarwień.
+🔸 Nie stosuj retinoidów, kwasów AHA/BHA ani innych drażniących kosmetyków przez 5–7 dni – pozwól skórze się zregenerować.
+🔸 Dbaj o intensywne nawilżenie skóry – używaj delikatnych, kojących kremów lub żeli (np. z pantenolem, aloesem, kwasem hialuronowym).
+🔸 Nie wykonuj innych zabiegów kosmetycznych na tej samej okolicy przez co najmniej 10 dni – unikniesz nadmiernego obciążenia skóry.
+🔸 Śpij na świeżej, czystej poszewce na poduszkę – to zmniejsza ryzyko infekcji i podrażnień.
+🔸 Nie przytulaj zwierząt do twarzy przez kilka dni po zabiegu – sierść i bakterie mogą powodować podrażnienia i stany zapalne.
+
+📌 Skóra może być lekko zaczerwieniona i napięta przez 1–3 dni po zabiegu. To naturalna reakcja i ustępuje samoistnie. Możliwe jest również delikatne łuszczenie naskórka oraz powstanie strupków, których w żadnym wypadku nie zdrapujemy.`},
             {name: 'Zabieg rewitalizujący z maską', description: `Terapia regenerująca dla każdego rodzaju skóry z wykorzystaniem
 masek kremowych lub algowych, bogatych w składniki odżywcze.
 Zabieg, dzięki dostosowaniu substancji aktywnych do indywidualnych
